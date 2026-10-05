@@ -1,6 +1,10 @@
 global:
+  js:
+    js/global.js: {}
   css:
     theme:
       css/style.css: {}
   dependencies:
     - bootstrap5/global-styling
+    - core/drupal
+    - core/once

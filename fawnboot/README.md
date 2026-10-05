@@ -21,4 +21,13 @@ ddev exec --dir /var/www/html/web/themes/custom/fawnboot npm run watch
 Stop the watcher with Ctrl+C. Clear Drupal caches with `ddev drush cr` after
 building if CSS aggregation is enabled.
 
+## JavaScript
+
+Add custom JavaScript in `js/global.js`, loaded through the theme's global library.
+Use Drupal behaviors so code runs on initial page load and after Drupal AJAX
+updates. Use `once` on the elements you initialize to avoid duplicate handlers.
+JavaScript is loaded directly and does not require the Sass watcher.
+Register additional JS files in `fawnboot.libraries.yml` as needed.
+Clear Drupal caches after changing libraries or aggregated JavaScript.
+
 To activate the theme, use Appearance > FawnBoot > Install and set as default.
