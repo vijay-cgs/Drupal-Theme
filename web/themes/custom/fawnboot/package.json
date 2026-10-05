@@ -1,0 +1,11 @@
+{
+  "name": "fawnboot-theme",
+  "private": true,
+  "scripts": {
+    "build": "sass --no-source-map --style=expanded scss:css",
+    "watch": "sass --watch --no-source-map --style=expanded scss:css"
+  },
+  "devDependencies": {
+    "sass": "^1.93.0"
+  }
+}

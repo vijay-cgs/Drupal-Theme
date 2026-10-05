@@ -1,0 +1,6 @@
+global:
+  css:
+    theme:
+      css/style.css: {}
+  dependencies:
+    - bootstrap5/global-styling

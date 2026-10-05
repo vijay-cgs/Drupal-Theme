@@ -1,0 +1,22 @@
+name: FawnBoot
+type: theme
+description: 'Custom Bootstrap 5 subtheme with SCSS styles.'
+base theme: bootstrap5
+core_version_requirement: ^11
+package: Custom
+libraries:
+  - fawnboot/global
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region'
+  breadcrumb: Breadcrumbs
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: Primary
+  sidebar_second: Secondary
+  footer: Footer
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
